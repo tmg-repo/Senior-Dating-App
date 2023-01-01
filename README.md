@@ -14,4 +14,4 @@ This project was built using Java and Android Studio.
 
 ## What I learnt
 
-This is the first project I built that carefully examined UX and UI, so I spent more time considering these aspects of the process. I used an Agile method of developing the project as the needs of it were changing frequently, so I became more accustomed to the development lifecycle of software.
+This is the first project I built that carefully examined UX and UI, so I spent more time considering these aspects of the process. I used an Agile method of developing the project as the needs of it were changing frequently, so I became more accustomed to the development lifecycle of software. I furthered my programming knowledge too, as this is the first project I built in Java for a while so it was good to get a refresher on some OOP concepts.
