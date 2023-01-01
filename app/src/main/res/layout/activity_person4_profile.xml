@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".person4_profile">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginEnd="25dp"
+        android:text="Slide -> for more photos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filter_button4" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager4"
+        android:layout_width="420dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/age_textview4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filter_button4" />
+
+    <Button
+        android:id="@+id/settingsbutton7"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilebutton5" />
+
+    <Button
+        android:id="@+id/profilebutton5"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="My Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chatbutton6" />
+
+    <Button
+        android:id="@+id/chatbutton6"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/matchbutton7" />
+
+    <Button
+        android:id="@+id/matchbutton7"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Match"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backbtn4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="412dp"
+        android:backgroundTint="#acb9e8"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/filter_button4"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="17dp"
+        android:text="filter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/intestest4_text4"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="584dp"
+        android:text="Swimming"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/interest1_text4"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="528dp"
+        android:text="Photography"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/interest3_text4"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="528dp"
+        android:text="Reading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/interest2_text4"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="584dp"
+        android:text="Cooking"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/skipbtn4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#acb9e8"
+        android:text="SKIP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/likebtn4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="146dp"
+        android:backgroundTint="#acb9e8"
+        android:text="Like"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="484dp"
+        android:text="Pemberton, Vancouver BC"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/age_textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="460dp"
+        android:text="60"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="460dp"
+        android:text="Veronica,"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatMain">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:text="MY CHATS"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Profile"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Chats" />
+
+    <Button
+        android:id="@+id/Chats"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Chats"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Matching" />
+
+    <Button
+        android:id="@+id/Matching"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Match"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#a29ecd"
+        android:text="Setting"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Profile" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Alex Ron"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+
+    <Button
+        android:id="@+id/Invites"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:text="Invites"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CreateGroup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:text="Create Group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Invites" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Morgan Freeman"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewm" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="155dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic1" />
+
+    <Button
+        android:id="@+id/Chat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name2" />
+
+    <Button
+        android:id="@+id/chat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name1" />
+
+    <ImageView
+        android:id="@+id/imageViewm"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="245dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic2" />
+
+    <TextView
+        android:id="@+id/preview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Wow that was smooth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name1" />
+
+    <TextView
+        android:id="@+id/preview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Hi!. We did yes. What..."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

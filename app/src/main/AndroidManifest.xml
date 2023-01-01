@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Create_Account"
+        tools:targetApi="31">
+        <activity
+            android:name=".More"
+            android:exported="false" />
+        <activity
+            android:name=".More2"
+            android:exported="false" />
+        <activity
+            android:name=".Group"
+            android:exported="false" />
+        <activity
+            android:name=".Invites"
+            android:exported="false" />
+        <activity
+            android:name=".Chat2"
+            android:exported="false" />
+        <activity
+            android:name=".Chat1"
+            android:exported="false" />
+        <activity
+            android:name=".ChatMain"
+            android:exported="false" />
+        <activity
+            android:name=".Settings5"
+            android:exported="false" />
+        <activity
+            android:name=".Settings4"
+            android:exported="false" />
+        <activity
+            android:name=".Settings2"
+            android:exported="false" />
+        <activity
+            android:name=".Settings3"
+            android:exported="false" />
+        <activity
+            android:name=".Settings1"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsMain"
+            android:exported="false" />
+        <activity
+            android:name=".SucMatch4"
+            android:exported="false" />
+        <activity
+            android:name=".SucMatch3"
+            android:exported="false" />
+        <activity
+            android:name=".SucMatch2"
+            android:exported="false" />
+        <activity
+            android:name=".SucMatch"
+            android:exported="false" />
+        <activity
+            android:name=".person4_profile"
+            android:exported="false" />
+        <activity
+            android:name=".person3_profile"
+            android:exported="false" />
+        <activity
+            android:name=".person2_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Filter_UI"
+            android:exported="false" />
+        <activity
+            android:name=".EmptyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".person1_profile"
+            android:exported="false" />
+        <activity
+            android:name=".MatchingMainPage"
+            android:exported="false" />
+        <activity
+            android:name=".almostdone"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".uploadphoto"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".moreaboutyou"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".signup"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
